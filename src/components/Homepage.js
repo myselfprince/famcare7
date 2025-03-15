@@ -6,7 +6,7 @@ const Homepage = () => {
   return (<>
     <div
       className="relative bg-cover bg-center h-[88vh] flex items-center"
-      style={{ backgroundImage: "url('/HomePage.png')" }}
+      style={{ backgroundImage: "url('/images/HomePage.png')" }}
     >
       <div className="absolute inset-0"></div>
       <div className="relative text-[#103C63] container mx-auto px-13 flex flex-col items-start space-y-6">
