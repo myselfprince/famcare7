@@ -31,7 +31,7 @@ const Homepage = () => {
     
     {/* <section className='mt-10'>
         <div>
-            <Image src="/images/image2.png" height={300} width={400} alt="HomePage famcare"/> 
+            <Image src="/images/image2.png" height={300} width={400} alt="HomePage femcare"/> 
         </div>
     </section> */}
         <section className="text-gray-600 body-font">
