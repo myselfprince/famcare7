@@ -7,7 +7,7 @@ const Navbar = () => {
     <header className="text-white body-font bg-[#103C63]">
       <div className="container mx-auto flex flex-wrap px-5 py-2 flex-col md:flex-row items-center">
         <Link href="/" className="flex title-font font-medium items-center text-white md:mb-0">
-            <Image alt="famcare logo" src={"/Logo.png"} width={115} height={64}/>
+            <Image alt="famcare logo" src={"/images/Logo.png"} width={115} height={64}/>
         </Link>
 
         {/* Navigation */}
