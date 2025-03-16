@@ -26,14 +26,7 @@ const Homepage = () => {
     </div>
 
     <div className='bg-[#CAF0F8]'>
-
     <Cards />
-    
-    {/* <section className='mt-10'>
-        <div>
-            <Image src="/images/image2.png" height={300} width={400} alt="HomePage femcare"/> 
-        </div>
-    </section> */}
         <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
         {/* Image Section */}

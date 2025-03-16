@@ -62,7 +62,7 @@ export default function Blogs() {
               Yoga for PCOS
             </h2>
             <p className="text-gray-600 text-sm mb-4">
-              Poses to Balance Your Hormones. These gentle yoga poses—like Child’s Pose—manage PCOS symptoms and boost your well-being.
+              Poses to Balance Your Hormones. These gentle yoga poses—like Childs Pose—manage PCOS symptoms and boost your well-being.
             </p>
             <Link href="/yoga-for-pcos">
               <button className="text-dark-blue font-semibold border border-dark-blue rounded-full px-4 py-1 cursor-pointer hover:bg-[#103C63] hover:text-white transition">

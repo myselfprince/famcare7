@@ -63,10 +63,10 @@ export default function Blogs() {
             </h2>
             <p className="text-gray-600 text-sm mb-4">
              
-             <ul>
-                <li>Period Relief</li>
-                <li>Ease your cramps with this gentle yoga flow—perfect for your monthly cycle!</li>
-             </ul>
+             <span className='block'>
+               Period Relief</span>
+              <span>  Ease your cramps with this gentle yoga flow—perfect for your monthly cycle!
+             </span>
             </p>
             <Link href="/yoga-for-pcos">
               <button className="text-dark-blue font-semibold border border-dark-blue rounded-full px-4 py-1 cursor-pointer hover:bg-[#103C63] hover:text-white transition">
@@ -90,10 +90,10 @@ export default function Blogs() {
             Healthy Meal Prep for Energy
             </h2>
             <p className="text-gray-600 text-sm mb-4">
-                <ul>
-                    <li>Nutrition</li>
-                    <li>Whip up iron-rich meals to boost energy during your period—simple and delicious!</li>
-                </ul>
+                
+                    <span className='block'>Nutrition</span>
+                    <span>Whip up iron-rich meals to boost energy during your period—simple and delicious!</span>
+               
 
                   </p>
             <Link href="/nutrition">
@@ -118,10 +118,10 @@ export default function Blogs() {
             Yoga Flow for PCOS Relief
             </h2>
             <p className="text-gray-600 text-sm mb-4">
-              <ul>
-                <li>Yoga & Fitness</li>
-                <li>Balance your hormones with this yoga routine designed for PCOS support.</li>
-              </ul>
+              <span className='block'>
+                Yoga & Fitness</span>
+                <span>Balance your hormones with this yoga routine designed for PCOS support.</span>
+              
             </p>
             <Link href="/mental-wellness">
               <button className="text-dark-blue font-semibold border border-dark-blue rounded-full px-4 py-1 cursor-pointer hover:bg-[#103C63] hover:text-white transition">

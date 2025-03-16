@@ -10,7 +10,7 @@ export default function Home() {
 
   const handleFormSubmit = async (formData) => {
     try {
-      const response = await fetch('https://femai-backend.onrender.com/predict', {
+      const response = await fetch('http://localhost:8000/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
