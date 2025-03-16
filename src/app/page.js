@@ -6,14 +6,14 @@ import Footer from '@/components/Footer'
 const Home = () => {
   return (
     <main className=' bg-[#CAF0F8]'>
-      <Navbar />
+      {/* <Navbar /> */}
       <Homepage />
       <Testimonials />
 
       <div className='h-96 bg-white'>
 
       </div>
-      <Footer />
+    
     </main>
   )
 }

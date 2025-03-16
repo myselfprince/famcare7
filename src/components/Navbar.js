@@ -30,14 +30,16 @@ const Navbar = () => {
           <Link href="/fourth" className="mr-5 hover:text-gray-300">
             Contact Us
           </Link>
-          <Link href="/fourth" className="mr-5 hover:text-gray-300">
+          <Link href="/login" className="mr-5 hover:text-gray-300">
             Sign in
           </Link>
         </nav>
 
         {/* Button */}
         <button className="inline-flex items-center bg-[#90E0EF] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 text-black">
-          SignUp
+          <Link href="/signup" className=" hover:text-gray-300">
+            SignUp
+          </Link>
           <svg
             fill="none"
             stroke="currentColor"
