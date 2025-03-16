@@ -51,7 +51,7 @@ const SignupPage = () => {
       <div className=' mx-auto flex justify-around items-center'>
        
         <div className='w-screen md:w-[500px] flex items-center justify-center'>
-          <div className='w-full border'>
+          <div className='w-full'>
 
          
           {/* signup page */}
@@ -59,7 +59,7 @@ const SignupPage = () => {
        
           <p className='text-center text-[#0077B6] font-sans text-sm'>Become part of our community and unlock personalized wellness plans, period relief, and expert support. Let’s start your health glow-up together! </p>
 
-          <h2 className='border text-center text-xl flex justify-center items-center mt-7 font-semibold relative w-[350px] h-[40px] mx-auto bg-[#103C63] rounded-3xl -mb-4 text-[#CAF0F8]'>{loading?"Processing":"Create Your Account"}</h2>
+          <h2 className='text-center text-xl flex justify-center items-center mt-7 font-semibold relative w-[350px] h-[40px] mx-auto bg-[#103C63] rounded-3xl -mb-4 text-[#CAF0F8]'>{loading?"Processing":"Create Your Account"}</h2>
           <div className='bg-[#8CBEDA] w-lg mx-auto py-5'>
                  <div className="rounded px-8 pt-6 pb-8 mb-4 w-5/6 mx-auto ">
         <div className="mb-4">

@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link href="/first" className="mr-5 hover:text-gray-300">
             Home
           </Link>
-          <Link href="/second" className="mr-5 hover:text-gray-300">
+          <Link href="/femai" className="mr-5 hover:text-gray-300">
             FemAI
           </Link>
           <Link href="/third" className="mr-5 hover:text-gray-300">
