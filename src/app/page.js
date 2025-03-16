@@ -9,11 +9,11 @@ const Home = () => {
       {/* <Navbar /> */}
       <Homepage />
       <Testimonials />
-
+{/* 
       <div className='h-96 bg-white'>
 
       </div>
-    
+     */}
     </main>
   )
 }

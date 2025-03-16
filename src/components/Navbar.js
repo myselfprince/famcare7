@@ -12,22 +12,22 @@ const Navbar = () => {
 
         {/* Navigation */}
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <Link href="/first" className="mr-5 hover:text-gray-300">
+          <Link href="/" className="mr-5 hover:text-gray-300">
             Home
           </Link>
           <Link href="/femai" className="mr-5 hover:text-gray-300">
             FemAI
           </Link>
-          <Link href="/third" className="mr-5 hover:text-gray-300">
+          <Link href="/blogs" className="mr-5 hover:text-gray-300">
             Blogs
           </Link>
-          <Link href="/fourth" className="mr-5 hover:text-gray-300">
+          <Link href="/femplayer" className="mr-5 hover:text-gray-300">
             FemPlayer
           </Link>
-          <Link href="/fourth" className="mr-5 hover:text-gray-300">
+          <Link href="/" className="mr-5 hover:text-gray-300">
             Period Relief
           </Link>
-          <Link href="/fourth" className="mr-5 hover:text-gray-300">
+          <Link href="/" className="mr-5 hover:text-gray-300">
             Contact Us
           </Link>
           <Link href="/login" className="mr-5 hover:text-gray-300">
