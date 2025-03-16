@@ -10,7 +10,7 @@ export default function Home() {
 
   const handleFormSubmit = async (formData) => {
     try {
-      const response = await fetch('http://localhost:8000/predict', {
+      const response = await fetch('https://femai-backend.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -41,7 +41,7 @@ export default function Home() {
     // </div>
     <div className="max-w-4xl mx-auto p-5">
   <h1 className="text-center text-3xl text-gray-800 mb-8">
-    Women's Health Routine Generator
+    Women&apos;s Health Routine Generator
   </h1>
   <HealthForm onSubmit={handleFormSubmit} />
   {predictions && <Results predictions={predictions} />}
